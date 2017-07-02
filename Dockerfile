@@ -1,4 +1,4 @@
-FROM microsoft/aspnet:1.0.0-beta4
+FROM microsoft/aspnet:3.5
 ADD /src /app
 WORKDIR /app
 RUN ["dnu", "restore"]
